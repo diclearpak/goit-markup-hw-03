@@ -13,16 +13,19 @@
   --sixth-color: #f4f4fd;
   --seventh-color: #404bbf;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-}
 
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--second-color);
   line-height: 1.5;
+  margin: 0 auto;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .text-color-white {
   color: var(--second-color);
 }
@@ -64,7 +67,7 @@ body {
 a {
   text-decoration: none;
   color: var(--first-color);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a:hover {
