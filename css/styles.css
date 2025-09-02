@@ -49,7 +49,7 @@ body {
   align-items: center;
   padding: 24px 156px;
   background-color: var(--second-color);
-  border: var(--third-color);
+  border-bottom: 1px solid var(--third-color);
 }
 
 .nav-bar {
